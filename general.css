@@ -1,0 +1,28 @@
+/* 
+
+color : #808080
+**color palette**
+
+- #FCA424
+- #0DD39D
+- #1A1A1A
+- #CDCDCD
+- #FEFEFE
+
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: "Rubik", sans-serif;
+}
+body{
+    /* overflow: hidden; */
+    /* height: 100vh; */
+}

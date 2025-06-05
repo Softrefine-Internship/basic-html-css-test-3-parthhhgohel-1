@@ -4,6 +4,239 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="general.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </head>
-  <body></body>
+  <body>
+
+    <header class="header">
+      <nav class="dashboard-navigation">
+        <div class="logo-text">
+          <ion-icon name="chatbox" class="chat-logo"></ion-icon>
+          <!-- <img src="nav/logo.svg" class="chat-logo" alt="chat logo"> -->
+          <span class="logo-text">SKS Funding</span>
+        </div>
+        <div class="nav-items">
+          <ol class="nav-lists">
+            <li class="nav-list"><button class="btn btn-need-help">Need Help</button></li>
+            <li class="nav-list"><ion-icon name="notifications-outline" class="notification-icon"></ion-icon></li>
+            <li class="nav-list"><img src="nav/lady-profile-pic.jpg" class="profile-pic" alt="lady profile pic"></li>
+          </ol>
+        </div>
+      </nav>
+
+      <section class="section-info">
+        <img src="nav/lady-profile-pic.jpg"  class="lady-pic" alt="lady profile photo">
+        <div class="personal-info">
+          <h1 class="info-title">Hi, <span>Emma good morning👋</span></h1>
+          <ol class="contact-info">
+            <li class="contact-list">Email - <span>akp.emma1231@gmail.com</span></li>
+            <li class="contact-list">Phone - <span>+91-123456789</span></li>
+            <li class="contact-list">Address - <span>Po Box 123, New York, NY 12345</span></li>
+            <li class="contact-list">Plan - <span>&dollar;100</span></li>
+            <li class="contact-list">Joined - <span>Mon 22nd Aug 2022</span></li>
+          </ol>
+        </div>
+        <div class="profile-completion">
+          <div class="percentage">75%</div>
+          <div class="msg">
+            <h3 class="completion-title">Profile Completion</h3>
+            <p class="sm-text">Please complete profile</p>
+            <button class="complete-btn">Complete</button>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main class="container">
+      <div class="about-family">
+        <div class="family-bg">
+          <div class="family-nav">
+            <h1 class="family-title">About my family</h1>
+            <ion-icon name="ellipsis-horizontal" class="dots-icon"></ion-icon>
+          </div>
+          
+          <h3 class="helper-type">covered persons</h3>
+          <div class="persons">
+            <img src="clients/client-1.jpg" alt="person 1" class="person">
+            <img src="clients/client-2.jpg" alt="person 2" class="person">
+          </div>
+          
+          <h3 class="helper-type">beneficiary persons</h3>
+          <div class="persons">
+            <img src="clients/client-8.jpg" alt="person 1" class="person">
+            <img src="clients/client-7.jpg" alt="person 2" class="person">
+            <img src="clients/client-5.jpg" alt="person 2" class="person">
+          </div>
+          <h3 class="helper-type">emergency persons</h3>
+          <div class="persons">
+            <img src="clients/client-9.jpg" alt="person 1" class="person">
+            <img src="clients/client-4.jpg" alt="person 2" class="person">
+            <img src="clients/client-6.jpg" alt="person 2" class="person">
+            <img src="clients/client-3.jpg" alt="person 2" class="person">
+          </div>
+
+        </div>
+        <div class="details">
+          <div class="family-nav">
+            <h1 class="family-title">About Me</h1>
+            <ion-icon name="ellipsis-horizontal" class="dots-icon"></ion-icon>
+          </div>
+          <div class="contact-fam">
+            <h4 class="sm-text">Email</h4>
+            <p class="contact-text">akp.emma1231@gmail.com</p>
+
+            <h4 class="sm-text">Phone</h4>
+            <p class="contact-text">+91-123456789</p>
+
+            <h4 class="sm-text">Address</h4>
+            <p class="contact-text">Po Box 123, New York, NY 12345</p>
+
+            <h4 class="sm-text">plan</h4>
+            <p class="contact-text">&dollar;100</p>
+
+            <h4 class="sm-text">Joined</h4>
+            <p class="contact-text">Mon 22nd Aug 2022</p>
+          </div>
+        </div>
+      </div>
+      <div class="num-nav">
+        <div class="container-nav">
+          <ul class="nav-links">
+            <li class="nav-link"><ion-icon name="home" class="home-icon"></ion-icon>dashboard</li>
+            <li class="nav-link">new claims</li>
+            <li class="nav-link">completed claims</li>
+            <li class="nav-link">past claims</li>
+            <li class="nav-link">members</li>
+            <li class="nav-link">my claims</li>
+            <li class="nav-link"><button class="btn-claim"><img width="18" height="18" src="https://img.icons8.com/ios/50/money-with-wings.png" alt="money-with-wings"/>claims</button></li>
+          </ul>
+        </div>
+        <div class="numbers">
+          <div class="num-box">
+            <h1 class="num">23</h1>
+            <div class="title-img">
+              <p class="sm-text">New Claims</p>
+              <div class="clients-pic">
+                <img src="clients/client-1.jpg" class="client-pic" alt="client 1">
+                <img src="clients/client-2.jpg" class="client-pic" alt="client 2">
+                <img src="clients/client-3.jpg" class="client-pic" alt="client 3">
+                <div class="client-pic client-empty-pic">+32</div>
+              </div>
+            </div>
+          </div>
+          <div class="num-box">
+            <h1 class="num">76</h1>
+            <div class="title-img">
+              <p class="sm-text">New members</p>
+              <div class="clients-pic">
+                <img src="clients/client-4.jpg" class="client-pic" alt="client 1">
+                <img src="clients/client-5.jpg" class="client-pic" alt="client 2">
+                <img src="clients/client-6.jpg" class="client-pic" alt="client 3">
+                <div class="client-pic client-empty-pic">+32</div>
+              </div>
+            </div>
+          </div>
+          <div class="num-box">
+            <h1 class="num">102</h1>
+            <div class="title-img">
+              <p class="sm-text">Total Claims</p>
+              <div class="clients-pic">
+                <img src="clients/client-3.jpg" class="client-pic" alt="client 1">
+                <img src="clients/client-9.jpg" class="client-pic" alt="client 2">
+                <img src="clients/client-7.jpg" class="client-pic" alt="client 3">
+                <div class="client-pic client-empty-pic">+32</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clients">
+        <div class="client-details">
+          <img src="clients/client-1.jpg" class="client" alt="client-1">
+          <div class="client-info">
+            <h2 class="client-name">amelia kimani</h2>
+            <ul class="client-activity">
+              <li class="client-activity-item"><ion-icon name="calendar-clear-outline" class="activity-icon"></ion-icon> <span>Filled</span> - Thu, Jul 10, 2018 7:00 PM EDT</li>
+              <li class="client-activity-item"><ion-icon name="calendar-number-outline" class="activity-icon"></ion-icon> <span>Due</span> - Wed, Jul 23, 2019 12:30 PM</li>
+              <li class="client-activity-item"><ion-icon name="location-outline" class="activity-icon"></ion-icon> <span>Address</span> - Hillside Rd, Heranandani...</li>
+            </ul>
+          </div>
+          <button class="btn-pay"><img width="18" height="18" src="https://img.icons8.com/ios/50/money-with-wings.png" alt="money-with-wings"/>pay</button>
+        </div>
+        <div class="client-details">
+          <img src="clients/client-4.jpg" class="client" alt="client-1">
+          <div class="client-info">
+            <h2 class="client-name">Genevieve juma</h2>
+            <ul class="client-activity">
+              <li class="client-activity-item"><ion-icon name="calendar-clear-outline" class="activity-icon"></ion-icon> <span>Filled</span> - Thu, Jul 10, 2018 7:00 PM EDT</li>
+              <li class="client-activity-item"><ion-icon name="calendar-number-outline" class="activity-icon"></ion-icon> <span>Due</span> - Wed, Jul 23, 2019 12:30 PM</li>
+              <li class="client-activity-item"><ion-icon name="location-outline" class="activity-icon"></ion-icon> <span>Address</span> - Hillside Rd, Heranandani...</li>
+            </ul>
+          </div>
+          <button class="btn-pay"><img width="18" height="18" src="https://img.icons8.com/ios/50/money-with-wings.png" alt="money-with-wings"/>pay</button>
+        </div>
+        <div class="client-details">
+          <img src="clients/client-6.jpg" class="client" alt="client-1">
+          <div class="client-info">
+            <h2 class="client-name">Theodore wachira</h2>
+            <ul class="client-activity">
+              <li class="client-activity-item"><ion-icon name="calendar-clear-outline" class="activity-icon"></ion-icon> <span>Filled</span> - Thu, Jul 10, 2018 7:00 PM EDT</li>
+              <li class="client-activity-item"><ion-icon name="calendar-number-outline" class="activity-icon"></ion-icon> <span>Due</span> - Wed, Jul 23, 2019 12:30 PM</li>
+              <li class="client-activity-item"><ion-icon name="location-outline" class="activity-icon"></ion-icon> <span>Address</span> - Hillside Rd, Heranandani...</li>
+            </ul>
+          </div>
+          <button class="btn-pay"><img width="18" height="18" src="https://img.icons8.com/ios/50/money-with-wings.png" alt="money-with-wings"/>pay</button>
+        </div>
+        <div class="client-details">
+          <img src="clients/client-8.jpg" class="client" alt="client-1">
+          <div class="client-info">
+            <h2 class="client-name">ishita vyas</h2>
+            <ul class="client-activity">
+              <li class="client-activity-item"><ion-icon name="calendar-clear-outline" class="activity-icon"></ion-icon> <span>Filled</span> - Thu, Jul 10, 2018 7:00 PM EDT</li>
+              <li class="client-activity-item"><ion-icon name="calendar-number-outline" class="activity-icon"></ion-icon> <span>Due</span> - Wed, Jul 23, 2019 12:30 PM</li>
+              <li class="client-activity-item"><ion-icon name="location-outline" class="activity-icon"></ion-icon> <span>Address</span> - Hillside Rd, Heranandani...</li>
+            </ul>
+          </div>
+          <button class="btn-pay"><img width="18" height="18" src="https://img.icons8.com/ios/50/money-with-wings.png" alt="money-with-wings"/>pay</button>
+        </div>
+      </div>
+
+      <div class="activity">
+        <nav class="activity-nav">
+          <h3>activity</h3>
+        </nav>
+        <div class="activity-body">
+          <div class="activity-type type-1">
+            <h3>Claimed $2000</h3>
+            <p class="activity-para">23 members are got claimed in washington DC</p>
+            <p class="time">05:40pm</p>
+          </div>
+          <div class="activity-type type-2">
+            <h3>102 New Members</h3>
+            <p class="activity-para">We have 102 registrations check out their profiles</p>
+            <p class="time">05:40pm</p>
+          </div>
+          <div class="activity-type type-3">
+            <h3>3 Claims are waiting</h3>
+            <p class="activity-para">Please contribute them, they are Waiting for your help</p>
+            <p class="time">05:40pm</p>
+          </div>
+          <div class="activity-type type-4">
+            <h3>102 New Members</h3>
+            <p class="activity-para">We have 102 registrations check out their profiles</p>
+            <p class="time">05:40pm</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
